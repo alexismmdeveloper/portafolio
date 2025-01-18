@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header {
+    width: 100%;
+    min-height: 8vh;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 80vh;
+    color: #252525; 
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    padding: 0px 20px;
+}
+
+.section-title h1 {
+    margin-bottom: 20px;
+}
+
+.section-title p {
+    font-size: 0.9rem;
+    margin-bottom: 50px;
+}
+
+.section-portafolio h3 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.section-portafolio a {
+    width: 100%;
+    height: 20vh;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-1 {
+    background-image: linear-gradient(#00000080, #00000080), url('https://somosdevelup.com/assets/img/ajedrez.jpg');
+}
+
+.img-2 {
+    background-image: linear-gradient(#00000080, #00000080), url('	https://alankadena.netlify.app/assets/img/conferencia.JPG');
+}
+
+.img-3 {
+    background-image: linear-gradient(#00000080, #00000080), url('https://cdn.pixabay.com/photo/2015/04/30/23/20/coffee-747600_960_720.jpg');
+}
+
+.img-4 {
+    background-image: linear-gradient(#00000080, #00000080), url('https://starbuck-clone-page.netlify.app/assets/img/img_two.png');
+}
+
+.img-5 {
+    background-image: linear-gradient(#00000080, #00000080), url('https://media.wdwnt.com/2022/04/Sleeping-Beauty-Castle-Disneyland-stock.jpg');
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-height: 12vh;
+    font-size: 0.9rem;
+}
